@@ -117,52 +117,15 @@
     </nav><br><br>
 
     <!-- main banner -->
-    <section class="bgimage" id="home">
+    <section class="detector" id="home">
         <div class="container-fluid">
             <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                <h2 class="hero_title">Pneumonia Detector</h2>
+                <p>This is the detection page</p>
             </div>
             </div>
         </div>
     </section>
-
-    <!-- about section-->
-    <section id="about">
-        <div class="container mt-4 pt-4">
-            <h1 class="text-center">About Pneumonia</h1>
-            <div class="row mt-4">
-                <div class="col-lg-12">
-                    <p style="text-align: center; margin: 0px 100px;">Pneumonia is an infection that inflames the air sacs in one or both lungs.
-                    The air sacs may fill with fluid or pus (purulent material), causing cough with phlegm or pus, fever, chills, and difficulty breathing.
-                    A variety of organisms, including bacteria, viruses and fungi, can cause pneumonia. It is very common in the US, with more than 3 million cases per year.
-                    It's usually treatable by a medical professional, but it can be fatal.
-                </p>
-                </div>
-    </section>
-
-    <!-- example section-->
-    <section id="example">
-        <div class="container mt-4 pt-4">
-            <h1 class="text-center">Example</h1>
-            <div class="row mt-4">
-                <div class="col-lg-12">
-                    <form style="margin: auto;">
-                        <input type="file" id="myFile" name="filename" onchange="loadFile(event)" accept=".jpg"><br><br>
-                        <input type="submit">
-
-                        <p><img id="output" width="200" /></p>
-
-                    </form>
-                </div>
-    </section>
-
-    <script>
-        var loadFile = function(event) {
-            var image = document.getElementById('output');
-            image.src = URL.createObjectURL(event.target.files[0]);
-        };
-</script>
 
 </body>
 
