@@ -147,19 +147,3 @@ history = model.fit(training, validation_data=validation,
 
 print(targetimage)
 print(validation.labels)
-
-# tests
-targetimage = cv2.imread('LungXray.jpg')
-targetimage = cv2.resize(targetimage, (256, 256))
-
-print(targetimage.shape)
-
-model.predict(targetimage.reshape(-1, 256, 256, 3))
-
-model.predict(testX[10].reshape(-1, 256, 256, 3))
-
-print(testY[10])
-
-model.predict(testX[78].reshape(-1, 256, 256, 3))
-
-print(testY[78])
